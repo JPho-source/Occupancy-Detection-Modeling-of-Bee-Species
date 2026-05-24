@@ -6,6 +6,18 @@ Application of Occupancy Detection Modeling (ODM) using participatory science da
 
 ---
 
+## Authors
+
+- Jason Pho 
+- Coauthor Name
+- Coauthor Name
+
+Affiliations:
+- Department of Biology, [University]
+- [Lab or Institution]
+
+---
+
 ## Overview
 
 This repository contains R scripts and processed datasets used for:
