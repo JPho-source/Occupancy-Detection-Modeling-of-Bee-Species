@@ -9,8 +9,13 @@ Application of Occupancy Detection Modeling (ODM) using participatory science da
 ## Authors
 
 - Jason Pho 
-- Coauthor Name
-- Coauthor Name
+- Cheyenne Davis
+- Colby Kapp
+- Evelyn Guerrero
+- Nina Fogel
+- Adam B Smith
+- Nicole Miller-Struttmann*
+  (*Corresponding Author)
 
 Affiliations:
 - Department of Biology, [University]
