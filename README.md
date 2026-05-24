@@ -14,12 +14,11 @@ Application of Occupancy Detection Modeling (ODM) using participatory science da
 - Evelyn Guerrero
 - Nina Fogel
 - Adam B Smith
-- Nicole Miller-Struttmann*
-  (*Corresponding Author)
+- Nicole Miller-Struttmann (*Corresponding Author)
 
 Affiliations:
-- Department of Biology, [University]
-- [Lab or Institution]
+- Department of Biology, Webster University
+- Missouri Botanical Garden
 
 ---
 
