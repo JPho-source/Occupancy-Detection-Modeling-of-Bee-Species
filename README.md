@@ -44,16 +44,6 @@ outputs/        # model outputs and figures
 
 ---
 
-## Workflow
-
-1. Clean and merge datasets
-2. Build detection histories
-3. Fit occupancy-detection models
-4. Extract posterior distributions
-5. Generate figures and tables
-
----
-
 ## Main Environmental Covariates
 
 - Urbanization (`PC1`)
