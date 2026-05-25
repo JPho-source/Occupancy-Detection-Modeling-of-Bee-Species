@@ -17,19 +17,20 @@ Application of Occupancy Detection Modeling (ODM) using participatory science da
 - Nicole Miller-Struttmann (https://orcid.org/0000-0002-4799-4802) (*Corresponding Author)
 
 Affiliations:
-- Department of Biology, Webster University
+- Webster University
 - Missouri Botanical Garden
+- Saint Louis University
 
 ---
 
 ## Overview
 
 This repository contains R scripts and processed datasets used for:
-- occupancy-detection modeling
-- posterior analyses
-- uncertainty propagation
-- trait-based comparisons
-- figure generation
+- Occupancy-Detection Modeling
+- Uncertainty Propagation
+- Posterior Analyses
+- Trait-Based Comparisons
+- Figure Generation
 
 ---
 
