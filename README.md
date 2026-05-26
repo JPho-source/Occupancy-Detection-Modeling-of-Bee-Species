@@ -7,7 +7,6 @@ Application of Occupancy Detection Modeling (ODM) using participatory science da
 ---
 
 ## Authors
-
 - Jason Pho 
 - Cheyenne Davis
 - Colby Kapp
