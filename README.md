@@ -1,4 +1,4 @@
-# Occupancy-Detection-Modeling
+# Occupancy-Detection Modeling
 
 Application of Occupancy Detection Modeling (ODM) using participatory science data from the paper:
 
@@ -54,7 +54,7 @@ outputs/        # model outputs and figures
 
 ---
 
-## Additional Links
+## Additional Link
 
 Check out our lab wbesite for other intresting works:
 - SHUTTERBEE - [Link](https://shutterbee.net/)
