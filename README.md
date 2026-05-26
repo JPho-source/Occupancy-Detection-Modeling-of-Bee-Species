@@ -53,3 +53,8 @@ outputs/        # model outputs and figures
 - Garden Bed Area
 
 ---
+
+## Additional Links
+
+Check out our lab wbesite for other intresting works:
+- SHUTTERBEE - [Link](https://shutterbee.net/)
