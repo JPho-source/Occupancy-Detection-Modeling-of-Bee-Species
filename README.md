@@ -7,7 +7,7 @@ Application of Occupancy Detection Modeling (ODM) using participatory science da
 ---
 
 ## Authors
-Jason Pho, Cheyenne Davis, Colby Kapp, Evelyn Guerrero, [Nina Fogel](https://orcid.org/0000-0002-8065-2150), [Adam B. Smith](https://orcid.org/0000-0002-6420-1659), [Nicole Miller-Struttmann](https://orcid.org/0000-0002-4799-4802) (*Corresponding Author)
+Jason Pho, Cheyenne Davis, Colby Kapp, Evelyn Guerrero, [Nina Fogel](https://orcid.org/0000-0002-8065-2150), [Adam B. Smith](https://orcid.org/0000-0002-6420-1659), [Nicole Miller-Struttmann*](https://orcid.org/0000-0002-4799-4802) (*Corresponding Author)
 
 Affiliations:
 Webster University, Saint Louis University, Missouri Botanical Garden
