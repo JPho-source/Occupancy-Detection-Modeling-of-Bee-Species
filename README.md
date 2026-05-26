@@ -18,8 +18,8 @@ Application of Occupancy Detection Modeling (ODM) using participatory science da
 
 Affiliations:
 - Webster University
-- Missouri Botanical Garden
 - Saint Louis University
+- Missouri Botanical Garden
 
 ---
 
