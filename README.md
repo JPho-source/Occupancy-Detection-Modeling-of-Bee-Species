@@ -26,7 +26,6 @@ This repository contains R scripts and processed datasets used for:
 
 ## Repository Structure
 
-```text
 R/              # R scripts
 -Main Occupancy Detection Model
 -Posterior propagation
@@ -43,8 +42,6 @@ data/           # processed datasets
 
 outputs/        # model outputs and figures
 -Figures and tables saved from the paper 
-
-```
 
 ---
 
