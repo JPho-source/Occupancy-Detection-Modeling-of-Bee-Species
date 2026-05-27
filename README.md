@@ -20,7 +20,6 @@ This repository contains R scripts and processed datasets used for:
 - Occupancy-Detection Modeling
 - Uncertainty Propagation
 - Posterior Analyses
-- Trait-Based Comparisons
 - Figure Generation
 
 ---
