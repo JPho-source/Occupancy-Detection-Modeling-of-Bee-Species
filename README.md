@@ -1,6 +1,6 @@
 # Occupancy-Detection Modeling
 
-This repository contains the code and data used for the application for Occupancy Detection Modeling (ODM) using participatory science data from the paper:
+This repository contains the code and data used for Occupancy Detection Modeling (ODM) using participatory science data from the paper:
 
 > "Effects of habitat complexity on urban bee occupancy eclipse those of urbanization and flower diversity"
 
