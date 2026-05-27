@@ -14,16 +14,6 @@ Webster University, Saint Louis University, Missouri Botanical Garden
 
 ---
 
-## Overview
-
-This repository contains R scripts and processed datasets used for:
-- Occupancy-Detection Modeling
-- Uncertainty Propagation
-- Posterior Analyses
-- Figure Generation
-
----
-
 ## Repository Structure
 
 code/   
