@@ -28,8 +28,22 @@ This repository contains R scripts and processed datasets used for:
 
 ```text
 R/              # R scripts
+-Main Occupancy Detection Model
+-Posterior propagation
+-Caterpillar Plot
+-Posterior Trait Plot
+  -Violin Plot 
+
 data/           # processed datasets
+-Participant survey data from 2021-2023
+-Bed enrty
+-Flower species richness entry 
+-Principal component analysis of Urbanization (PC1)
+-Functional traits of bee species (Nesting, Socialty, Native, and Body length)
+
 outputs/        # model outputs and figures
+-Figures and tables saved from the paper 
+
 ```
 
 ---
