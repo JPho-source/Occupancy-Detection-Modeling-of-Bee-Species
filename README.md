@@ -42,5 +42,5 @@ Refer to this cition to cite this code, data, and paper:
 
 ## Additional Link
 
-Check out our lab wbesite for other intresting works:
+Check out our lab wbesite to learn about the SHUTTERBEE Project and other intresting works:
 - SHUTTERBEE - [Link](https://shutterbee.net/)
