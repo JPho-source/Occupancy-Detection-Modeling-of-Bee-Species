@@ -1,4 +1,4 @@
-# Occupancy-Detection Modeling
+# Occupancy-Detection Modeling of Bee Species
 
 This repository contains the code and data used for Occupancy Detection Modeling (ODM) using participatory science data from the paper:
 
