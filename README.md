@@ -31,7 +31,7 @@ R/   # R scripts
 - Posterior propagation
 - Caterpillar Plot
 - Posterior Trait Plot
-  -Violin Plot 
+  - Violin Plot 
 
 data/   # processed datasets
 - Participant survey data from 2021-2023
