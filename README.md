@@ -34,7 +34,7 @@ code/
   - Violin Plot 
 
 data/  
-- Participant survey data from 2021-2023
+- Participant survey data from 2020-2023
 - Bed enrty
 - Flower species richness entry 
 - Principal component analysis of Urbanization (PC1)
