@@ -35,16 +35,6 @@ outputs/        # model outputs and figures
 
 ---
 
-## Main Environmental Covariates
-
-- Urbanization (`PC1`)
-- Habitat Complexity
-- Vegetative Density
-- Flower Species Richness
-- Garden Bed Area
-
----
-
 ## Additional Link
 
 Check out our lab wbesite for other intresting works:
