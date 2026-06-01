@@ -17,7 +17,7 @@ Webster University, Saint Louis University, Missouri Botanical Garden
 ## Repository Structure
 
 code/   
-- Main Occupancy Detection Model
+- Occupancy Detection Model
 - Posterior propagation
 - Caterpillar Plot
 - Posterior Trait Plot
@@ -25,7 +25,7 @@ code/
 
 data/  
 - Participant survey data from 2020-2023
-- Bed enrty
+- Bed entry
 - Flower species richness entry 
 - Principal component analysis of Urbanization (PC1)
 - Functional traits of bee species (Nesting, Socialty, Native, and Body length)
