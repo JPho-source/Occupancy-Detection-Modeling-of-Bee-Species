@@ -23,12 +23,14 @@ code/
 - Posterior Trait Plot
   - Violin Plot 
 
+
 data/  
 - Participant survey data from 2020-2023
 - Bed entry
 - Flower species richness entry 
 - Principal component analysis of Urbanization (PC1)
 - Functional traits of bee species (Nesting, Socialty, Native, and Body length)
+
 
 outputs/  
 - Figures and tables saved from the paper.
