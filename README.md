@@ -18,8 +18,8 @@ Webster University, Saint Louis University, Missouri Botanical Garden
 
 code/   
 - Occupancy Detection Model
-- Posterior propagation
 - Caterpillar Plot
+- Posterior Propagation
 - Posterior Trait Plot
   - Violin Plot 
 
