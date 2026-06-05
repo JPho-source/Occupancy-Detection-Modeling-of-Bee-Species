@@ -30,7 +30,7 @@ data/
 
 
 outputs/  
-- Figures and tables saved from the paper.
+- Figures saved from the paper.
 
 ---
 
