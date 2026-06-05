@@ -11,7 +11,7 @@ Jason Pho, Cheyenne Davis, Colby Kapp, Evelyn Guerrero, [Nina Fogel](https://orc
 
 ## Repository Structure
 
-code/   
+#### Code/   
 - Occupancy Detection Model
 - Caterpillar Plot
 - Posterior Propagation
@@ -19,7 +19,7 @@ code/
   - Violin Plot 
 
 
-data/  
+#### Data/  
 - Participant survey data from 2020-2023
 - Bed entry
 - Flower species richness entry 
@@ -27,7 +27,7 @@ data/
 - Functional traits of bee species (Nesting, Socialty, Native, and Body length)
 
 
-outputs/  
+#### Outputs/  
 - Figures saved from the paper.
 
 ---
