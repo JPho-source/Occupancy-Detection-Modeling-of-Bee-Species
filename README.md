@@ -40,7 +40,7 @@ outputs/
 ## Citation
 
 Refer to this citation to cite this code, data, and paper:
-- Pho, J., Davis, D., Kapp, C., Guerrero, E., Fogel, N., Smith, A., Miller-Struttmann, N. (2026). Effects of habitat complexity on urban bee occupancy eclipse those of urbanization and flower diversity. _In press at Biological Conservation_.
+- Pho, J., Davis, D., Kapp, C., Guerrero, E., Fogel, N., Smith, A. B., Miller-Struttmann, N. (2026). Effects of habitat complexity on urban bee occupancy eclipse those of urbanization and flower diversity. _In press at Biological Conservation_.
   
 ---
 
