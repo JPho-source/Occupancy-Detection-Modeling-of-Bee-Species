@@ -109,7 +109,7 @@ plant species at each sample site.
 3. Run plotting scripts (Caterpillar_Plot.R, Posterior_Trait_Plot.R, and Violin_Plot.R).
 #####  *(Supplementary)* 
 4. Run HC_Detection_Comparison.R to compare habitat complexity as a detection.
-5. Run Observer_Species_Detection.R to compare detection variability of observer and species.
+5. Run Observer_Species_Detection.R to compare detection variability of observers and species.
 
 ---
 
