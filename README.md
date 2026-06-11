@@ -36,7 +36,7 @@ species observed. Protocol was recorded in the notes on iNaturalists; participan
 “sbee” in the Notes section on iNaturalist to indicate use of the Shutterbee Citizen science
 protocol. Duration refers to the duration of the survey in minutes. BeeGenus and
 BeeSpecies include the scientific genus and scientific species names, respectively. Columns
-year, month, and day record the date on which the bee was observed. Observed_on is the formatted year, month and day (YYYY-MM-DD) of bee observation. User logins were deidentified and replaced with unique anonymous identifiers.
+year, month, and day record the date on which the bee was observed. Observed_on is the formatted year, month, and day (YYYY-MM-DD) of bee observation. User logins were deidentified and replaced with unique anonymous identifiers.
 
 ##### functional_traits_4Archive.csv
 - Bee species functional trait data used for trait-based analyses as gathered from the
