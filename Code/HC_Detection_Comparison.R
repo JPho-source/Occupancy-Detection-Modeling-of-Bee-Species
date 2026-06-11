@@ -272,10 +272,7 @@ for(thisBee in 1:length(tribes)) {
   colnames(allSites)[1]="LocationID"
   data2023.sum<-merge(data2023.sum, allSites, by = "LocationID", all=TRUE, no.dups = TRUE)
   siteCovars<- merge(siteCovars, data2023.sum,by="LocationID")
-  
-  # # adding flower species richness/diversity to siteCovars
-  # localEnvData$Veg.Density <- as.numeric(localEnvData$Veg.Density)
-  
+            
   
   ###########
   ## model ##
