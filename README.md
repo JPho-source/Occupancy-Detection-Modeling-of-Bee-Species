@@ -1,4 +1,4 @@
-# Occupancy Detection Modeling of Bee Species
+# Effects of habitat complexity on urban bee occupancy eclipse those of urbanization and flower diversity
 
 This repository contains the data, analysis code, and supplementary materials for the paper: "Effects of habitat complexity on urban bee occupancy eclipse those of urbanization and flower diversity". The repository is organized to allow full reproduction of the analyses and figures presented in the paper.
 
