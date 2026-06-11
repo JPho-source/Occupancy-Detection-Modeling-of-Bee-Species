@@ -100,7 +100,7 @@ plant species at each sample site.
 - Creates caterpillar plots displaying parameter estimates and associated credible intervals from occupancy models.
 
 ##### Violin_Plot.R
-- Creates violin plots visualizing the distribution of model outputs bases on species slope means.
+- Creates violin plots visualizing the distribution of model outputs based on species slope means.
 
 
 ### **Workflow**
