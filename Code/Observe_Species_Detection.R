@@ -149,7 +149,7 @@ for(thisBee in 1:length(tribes)) {
   ######################################
   ## compile regional site covariates ##
   ######################################
-  regionalEnvData <- read.csv('PCA_12.12.25.csv')  
+  regionalEnvData <- read.csv('PCA_4Archive.csv')  
   regionalEnvData<- subset(regionalEnvData, LocID!=30)
   
   # remove duplicated rows
@@ -200,7 +200,7 @@ for(thisBee in 1:length(tribes)) {
   ###################################
   ## compile local site covariates ##
   ###################################
-  localEnvData <- read.csv('Bed Entry Sheet1_8.12.22.csv')
+  localEnvData <- read.csv('Bed Entry Sheet1_4Archive.csv')
   localEnvData<- subset(localEnvData, LocationID!=30)
   
   # habitat complexity
@@ -260,7 +260,7 @@ for(thisBee in 1:length(tribes)) {
   names(siteCovars)[names(siteCovars) == 'percent_URBAN_IMPERVIOUS_500m'] <- 'Impervious.Surface'
   
   # flower species richness
-  data2023.sum <- read.csv("Total.Flower.Count-Richness_12.8.2025.csv") 
+  data2023.sum <- read.csv("Total.Flower.Count-Richness_4Archive.csv") 
   
   data2023.sum<- data2023.sum[,-1]
   colnames(data2023.sum)[1]= "LocationID"
