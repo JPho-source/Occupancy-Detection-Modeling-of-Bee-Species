@@ -367,78 +367,76 @@ ggsave("species_det.png", width = 12, height = 8, plot = species_det, dpi = 300)
 # Observer Detection #
 ######################
 
-# Read in the datasets
-pca <- read.csv("PCA_12.12.25.csv")  
-bed <- read.csv("Bed Entry Sheet1_8.12.22.csv")
-sbee <- read.csv("SbeeDataClean_strict_v2_11.11.25.csv")
+# import datasets
+pca  <- read.csv("PCA_4Archive.csv")
+bed  <- read.csv("Bed Entry Sheet1_4Archive.csv")
+sbee <- read.csv("SbeeDataClean_strict_v2_4Archive.csv")
 
 # all bed sites
 bed_sites <- unique(bed$LocationID)
 
-# bed sites that are also in PCA (using LocID)
+# bed sites that are also in PCA
 bed_in_pca <- intersect(bed_sites, unique(pca$LocID))
 
 # from that subset, which are also in SBEE
 bed_in_pca_in_sbee <- intersect(bed_in_pca, unique(sbee$LocationID))
 
+# users from matched sites
 matched_users <- sbee %>%
   filter(LocationID %in% bed_in_pca_in_sbee) %>%
   select(LocationID, user_login)
 
 valid_users <- matched_users %>%
   pull(user_login) %>%
-  unique()
+  unique() %>%
+  tolower() %>%
+  trimws()
 
+# filter observer rows from model output
 detect_filtered <- model1_sum_det_filtered %>%
+  filter(str_detect(covariate, "^observer")) %>%
   mutate(
-    observer = ifelse(
-      str_detect(covariates, "^observer"),
-      str_remove(covariates, "^observer"),
-      NA
-    ),
+    observer = str_remove(covariate, "^observer"),
     observer = tolower(trimws(observer))
   ) %>%
   filter(observer %in% valid_users)
 
-
-# get intercept from original unfiltered output
+# get intercept
 intercept <- model1_sum_det_filtered %>%
-  filter(covariates == "(Intercept)") %>%
+  filter(covariate == "(Intercept)") %>%
   summarise(intercept = mean(mean, na.rm = TRUE)) %>%
   pull(intercept)
 
-
-# build observer-level detection probabilities from filtered observer rows
+# build observer-level detection probabilities
 observer_detect <- detect_filtered %>%
-  filter(str_detect(covariates, "^observer")) %>%
   mutate(
     logit_det     = intercept + mean,
     det_prob      = plogis(logit_det),
-    det_prob_low  = plogis(logit_det - se.mean),
-    det_prob_high = plogis(logit_det + se.mean)
+    det_prob_low  = plogis(logit_det - se_mean),
+    det_prob_high = plogis(logit_det + se_mean)
   )
 
-# summaries to ONE value per observer (keeping SE info)
+# summarize one value per observer
 observer_summary <- observer_detect %>%
   group_by(observer) %>%
   summarise(
-    mean_det_prob = mean(det_prob),
-    mean_se_logit = mean(se.mean),
-    mean_det_low  = mean(det_prob_low),
-    mean_det_high = mean(det_prob_high),
+    mean_det_prob = mean(det_prob, na.rm = TRUE),
+    mean_se_logit = mean(se_mean, na.rm = TRUE),
+    mean_det_low  = mean(det_prob_low, na.rm = TRUE),
+    mean_det_high = mean(det_prob_high, na.rm = TRUE),
     .groups = "drop"
   ) %>%
   mutate(
     rank = rank(-mean_det_prob)
   )
 
-# plot 
+# plot
 observer_det_plot <- ggplot(observer_summary, aes(x = rank, y = mean_det_prob)) +
   geom_point() +
-  geom_errorbar(aes(ymin = mean_det_low, ymax = mean_det_high),width = 0) +
+  geom_errorbar(aes(ymin = mean_det_low, ymax = mean_det_high), width = 0) +
   labs(title = "Observer Detectability Varies", x = "Observer rank", y = "Mean detection probability") +
   mytheme
 
 observer_det_plot
 
-ggsave("observer_det.png", width = 10, height = 6, plot = observer_det_plot, dpi = 300)
+ggsave("observer_det.png", width = 10, height = 6, observer_det_plot, dpi = 300 )
