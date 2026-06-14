@@ -101,7 +101,7 @@ plant species at each sample site.
 
 ##### Violin_Plot.R
 - Creates violin plots visualizing the distribution of model outputs based on species slope means.
-
+<br />
 
 ### **Workflow**
 1. Run Occupancy_Model_Analysis.R to fit occupancy models.
