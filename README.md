@@ -12,7 +12,7 @@ Jason Pho, Cheyenne Davis, Colby Kapp, Evelyn Guerrero, [Nina Fogel](https://orc
 ## Repository Structure
 
 ### **Datasets**
-##### Bed Entry Sheet1_4Archive.csv
+#### Bed Entry Sheet1_4Archive.csv
 - Raw field data collected on the environmental conditions of each site. This dataset contains
 site information , survey observations, and local environmental variables (habitat complexity
 and area of garden beds) recorded during field sampling at each sample site.
@@ -26,7 +26,7 @@ the shape of the bed (most rectangular). Veg Density is the percent of the bed t
 covered in vegetation, and % Bare ground is the percent of the bed with exposed soil or
 light mulching. Year is the year during which the data were collected.
 
-##### SbeeDataClean_strict_v2_4Archive.csv
+#### SbeeDataClean_strict_v2_4Archive.csv
 - Cleaned and quality-controlled version of the raw bee survey dataset used for the occupancy modeling.
 - Column names: LocationID is the unique identifier code given to each location. Columns
 latitude and longitude provide the geographic location of the obseravations, and the
@@ -38,7 +38,7 @@ protocol. Duration refers to the duration of the survey in minutes. BeeGenus and
 BeeSpecies include the scientific genus and scientific species names, respectively. Columns
 year, month, and day record the date on which the bee was observed. Observed_on is the formatted year, month, and day (YYYY-MM-DD) of bee observation. User logins were deidentified and replaced with unique anonymous identifiers.
 
-##### functional_traits_4Archive.csv
+#### functional_traits_4Archive.csv
 - Bee species functional trait data used for trait-based analyses as gathered from the
 literature. Variables include morphological, nesting, foraging, and size and habitat
 characteristics relevant to each species.
@@ -50,7 +50,7 @@ Ground or Below Ground. Lecty includes categorical description of foraging speci
 either Exotic or Native. Female.Length refers to the mean length of female bees in the
 genus, as reported in the literature. Size contains a categorical description of size.
 
-##### PCA_4Archive.csv
+#### PCA_4Archive.csv
 - Principal component analysis dataset and outputs used to quantify urbanization (PC1) from
 remotely-sensed variables within a 500m radius of each across study sites. Variables
 included human population density, impervious surface cover, open water, crop cover,
@@ -71,7 +71,7 @@ within 500m around each site that was identified as open water, row crop, grassl
 trees and shrubs, and deciduous trees and shrubs, respectively. X and Y refer respectively to
 the latitude and longitude of each sampling site.
 
-##### Total.Flower.Count-Richness_4Archive.csv
+#### Total.Flower.Count-Richness_4Archive.csv
 - Floral abundance and richness data collected at survey sites. This dataset contains flower
 counts and plant species richness measurements used in occupancy modeling.
 - Column names: sbeeID is the unique identifier code given to each location.
