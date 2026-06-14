@@ -81,25 +81,25 @@ plant species at each sample site.
 <br />
 
 ### **Code** 
-##### Occupancy_Model_Analysis.R
+#### Occupancy_Model_Analysis.R
 - Primary analysis script used to fit occupancy-detection models and evaluate the effects of habitat complexity, urbanization, vegetative diversity, garden bed area, flower species richness on bee occupancy.
 
-##### Observer_Species_Detection.R
+#### Observer_Species_Detection.R
 - Creates observer and bee species variability in detection results.  
 
-##### HC_Detection_Comparison.R
+#### HC_Detection_Comparison.R
 - Compares alternative detection model structures and evaluates the influence of habitat complexity on detection probability.
 
-##### Posterior_Propagation.R
+#### Posterior_Propagation.R
 - Performs posterior propagation analyses to estimate uncertainty and generate model predictions from fitted occupancy models.
 
-##### Posterior_Trait_Plot.R
+#### Posterior_Trait_Plot.R
 - Creates figures illustrating posterior distributions and trait-specific model results.
 
-##### Caterpillar_Plot.R
+#### Caterpillar_Plot.R
 - Creates caterpillar plots displaying parameter estimates and associated credible intervals from occupancy models.
 
-##### Violin_Plot.R
+#### Violin_Plot.R
 - Creates violin plots visualizing the distribution of model outputs based on species slope means.
 <br />
 
@@ -107,7 +107,7 @@ plant species at each sample site.
 1. Run Occupancy_Model_Analysis.R to fit occupancy models.
 2. Run Posterior_Propagation.R to generate model predictions and uncertainty estimates.
 3. Run plotting scripts (Caterpillar_Plot.R, Posterior_Trait_Plot.R, and Violin_Plot.R).
-#####  *(Supplementary)* 
+####  *(Supplementary)* 
 4. Run HC_Detection_Comparison.R to compare habitat complexity as a detection.
 5. Run Observer_Species_Detection.R to compare detection variability of observers and species.
 
