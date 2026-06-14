@@ -77,8 +77,8 @@ counts and plant species richness measurements used in occupancy modeling.
 - Column names: sbeeID is the unique identifier code given to each location.
 TotalFlowerNumber is the estimated total number of flowers, fruits, and buds observed at
 each site during a mid-season survey. FlowerRichness contains the number of flowering
-plant species at each sample site.__
-
+plant species at each sample site.
+<br />
 
 ### **Code** 
 ##### Occupancy_Model_Analysis.R
