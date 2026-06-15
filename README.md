@@ -116,8 +116,8 @@ plant species at each sample site.
 ## Citation
 
 Refer to this citation to cite this code, data, and paper:
-- Pho, J., Davis, D., Kapp, C., Guerrero, E., Fogel, N., Smith, A. B., Miller-Struttmann, N. (2026). Effects of habitat complexity on urban bee occupancy eclipse those of urbanization and flower diversity. _Biological Conservation_. https://doi.org/10.1016/j.biocon.2026.111936
-  
+- Pho, J., Davis, C., Kapp, C., Guerrero, E., Fogel, N. S., Smith, A. B., & Miller-Struttmann, N. E. (2026). Effects of habitat complexity on urban bee occupancy eclipse those of urbanization and flower diversity. _Biological Conservation_, 321, 111936. https://doi.org/10.1016/j.biocon.2026.111936
+
 ---
 
 ## Additional Link
