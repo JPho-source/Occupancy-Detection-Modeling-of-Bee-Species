@@ -122,5 +122,5 @@ Refer to this citation to cite this code, data, and paper:
 
 ## Additional Link
 
-Check out our lab wbesite to learn about the SHUTTERBEE Project and other intresting works:
-- SHUTTERBEE - [Link](https://shutterbee.net/)
+Check out our lab wbesite to learn about the Shutterbee Project and other intresting works:
+- Shutterbee - [Link](https://shutterbee.net/)
