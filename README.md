@@ -14,7 +14,7 @@ Jason Pho, Cheyenne Davis, Colby Kapp, Evelyn Guerrero, [Nina S. Fogel](https://
 ### **Datasets**
 #### Bed Entry Sheet1_4Archive.csv
 - Raw field data collected on the environmental conditions of each site. This dataset contains
-site information , survey observations, and local environmental variables (habitat complexity
+site information, survey observations, and local environmental variables (habitat complexity
 and area of garden beds) recorded during field sampling at each sample site.
 - Column names: Date is the date of data collection, LocationID is the unique identifier code
 given to each location. Habitat Complexity is a categorical rank describing the structure of
